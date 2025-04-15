@@ -19,6 +19,9 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background: #fff4f4b6;
+  color: rgba(255, 255, 255, 0);
+  position: relative;
 }
 
 /* O restante do seu CSS permanece o mesmo */
@@ -53,10 +56,7 @@ h2 {
   align-items: center;
   font-family: sans-serif;
   width: 40rem;
-  background-color: #f9f9f9;
   padding: 0.9375rem;
-  border-radius: 0.3125rem;
-  box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.1);
 
   .imagem-produto {
     margin-right: 1.25rem;
