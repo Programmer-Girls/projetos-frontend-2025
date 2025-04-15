@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff4f4b6;
+  color: rgba(255, 255, 255, 0);
+  position: relative;
+
+  .nav {
+    ul {
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+      list-style: none;
+
+      li a {
+        color: #541b38;
+        text-decoration: none;
+        transition: color 0.3s;
+        flex-direction: row;
+        display: flex;
+      }
+    }
+  }
+}
