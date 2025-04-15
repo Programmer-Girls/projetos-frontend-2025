@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import "./App.scss";
+import ProductCard from "./components/ProductCard.js";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         >
           Learn React
         </a>
+        <ProductCard />
       </header>
     </div>
   );
