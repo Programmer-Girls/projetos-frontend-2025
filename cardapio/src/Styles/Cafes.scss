@@ -1,0 +1,111 @@
+li {
+  text-decoration: none;
+  display: flex;
+}
+
+h2 {
+  font-size: 2rem;
+  /* Remova a linha abaixo */
+  /* display: flex; */
+  align-items: flex-start;
+  color: #541b38;
+  /* Adicione para garantir alinhamento à esquerda */
+  align-self: flex-start;
+  margin-left: 1rem;
+}
+
+.cafes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff4f4b6;
+  color: rgba(255, 255, 255, 0);
+  position: relative;
+}
+
+/* O restante do seu CSS permanece o mesmo */
+.lista-acompanhamentos {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 1.25rem;
+}
+
+.container-colunas {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.coluna-1,
+.coluna-2 {
+  flex: 1;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.produto-card {
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  width: 40rem;
+  padding: 0.9375rem;
+
+  .imagem-produto {
+    margin-right: 1.25rem;
+
+    img {
+      width: 9.375rem;
+      height: auto;
+      display: block;
+      border-radius: 0.1875rem;
+    }
+  }
+
+  .detalhes-produto {
+    .titulo-preco {
+      display: flex;
+      align-items: center;
+      gap: 0.625rem;
+
+      hr {
+        border: none;
+        border-top: 2px dotted #8c8c8c;
+        flex-grow: 1;
+        height: 0;
+        margin: 0;
+      }
+
+      .titulo {
+        font-size: 1.2rem;
+        color: #333;
+      }
+    }
+
+    .ingredientes {
+      color: #666;
+      margin-bottom: 0.3125rem;
+
+      span {
+        display: block;
+        font-size: 1rem;
+        color: #666;
+        margin-right: 0.625rem;
+        text-align: justify;
+      }
+    }
+
+    .preco {
+      text-align: right;
+      font-size: 1.4rem;
+      color: #333;
+    }
+  }
+}
